@@ -1,0 +1,25 @@
+1- Crear cuenta en github
+2- Crear un nuevo repositorio en github
+3- Copiar el link que nos da la web
+    https://github.com/fernandoromo401/programacion3.git
+4- Crear un repositorio local en git con la terminal
+    git init
+5- Crear un nuevo proyecto en NODEJS
+    npm init --y
+6- Instalar el framework Express
+    npm i express
+7- Crear el archivo .gitignore para que al momento de subir el proyecto no suba la carpeta node_modules
+    /node_modules -> se le agrega dentro del archivo
+8- Crear index.js
+9- Dentro de index.js creamos la app
+10- Requerimos el framework "express" para poder usarlo y a su funcion express
+11- Le asignamos un puerto para que ande
+12- Creamos el script para ejecutar el proyecto
+    "start": "node index.js" -> dentro de scripts en el package.json
+13- Ejecutamos
+14- Creamos algunas rutas y con el protocolo http
+15- Despues creen con otros metodos como el post pero hay que usar postman y ni ganas
+16- Una vez terminado guardar cambios en un commit en git
+    git add .
+    git commit -m "Nombre del commit"
+    No tiene que aparece la carpeta node_modules
